@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height:100px;
+    align-items: center;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(68, 59, 59);
+    padding: 100px;
+}
+#heading{
+    background-image: url("back2.jpg");
+    display:flex;
+    text-align: center;
+    margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding:225px;
+    justify-content: center;
+
+}
+#about{
+    float: right;
+    margin-right:140px;
+    padding-left: 150px;
+}
+#education{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timeline{
+    width:80%;
+    height:auto;
+    margin: 0 auto;
+}
+.timeline ul{
+    list-style-type: none;
+}
+.timeline ul li{
+    width:50%;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color:white;
+    background-color:#212122;
+    line-height: 30px;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    clear: right;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    clear: left;
+}
+.box{
+    margin-top: 40px;
+    margin:auto;
+    text-align: center;
+    width:100px;
+    box-sizing: border-box;
+}
+.skills-container{
+    max-width: 600px;
+    margin: 0 auto;  
+    padding: 20px;   
+    box-sizing: border-box;
+}
+.progressbar{
+    width:100%;
+    height: 15px;
+    background-color:#212122;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.progress{
+    height: 100%;
+}
+.progress.html{
+    background-color:#666362;
+    width: 80%;
+}
+.progress.java{
+    background-color:#666362;
+    width: 30%;
+}
+.progress.css{
+    background-color: #666362;
+    width:55%
+}
+.progress.py{
+    background-color: #666362;
+    width: 89%;
+}
+.Contact{
+    margin: auto;
+    text-align: center;
+}
+.Project{
+    margin: auto;
+    text-align: center;
+}
